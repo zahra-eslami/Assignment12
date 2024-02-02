@@ -30,7 +30,6 @@ def choice(ch):
         download(name)
     elif ch == 7:
         write_to_database()
-        # save_to_file()
         exit(0)
     else:
         print("Your choice is not in the list, please choose again")
@@ -43,7 +42,7 @@ def Show_menu():
         print("2- Edit")
         print("3- Remove")
         print("4- Show Info")
-        print("5- Search by time)")
+        print("5- Search by time")
         print("6- Download Trailer")
         print("7- Exit")
 
